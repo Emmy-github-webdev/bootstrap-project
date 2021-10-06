@@ -4,13 +4,14 @@ body {
   font-family: "Poppins";
   font-style: normal;
   font-weight: normal;
+  background-color: lightgray;
 }
 
 .bg-image {
   background-image: url(./images/Header_bg_desktop.svg);
   background-repeat: no-repeat;
-  height: 100vh;
   width: 100%;
+  height: 780px;
 }
 
 .bg-image > h1 {
@@ -45,6 +46,32 @@ body {
   height: 15px;
 }
 
-.card {
-  
+.proj_icons > li {
+    margin-left: 2%;
 }
+
+.list-group > li:first-child {
+    margin-left: unset;
+}
+
+.list-group > li {
+    list-style-type: none;
+}
+
+.card {
+  margin-bottom: 4%;
+}
+
+.work .card {
+  height: 418px;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+
