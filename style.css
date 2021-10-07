@@ -7,6 +7,14 @@ body {
   background-color: lightgray;
 }
 
+.nav-item:first-child {
+  padding-left: 330px;
+}
+
+a {
+  text-decoration: none;
+}
+
 .bg-image {
   background-image: url(./images/Header_bg_desktop.svg);
   background-repeat: no-repeat;
@@ -62,8 +70,8 @@ body {
   margin-bottom: 4%;
 }
 
-.work .card {
-  height: 418px;
+.work {
+  height: 350px;
 }
 
 .dot {
